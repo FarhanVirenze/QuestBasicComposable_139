@@ -87,7 +87,15 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             text = "20220140139",
             style = TextStyle(fontSize = 30.sp, fontWeight = FontWeight.Bold),
             modifier = Modifier.padding(bottom = 16.dp)
+
         )
+
+        // Image of the user
+        Image(
+            painter = painterResource(id = R.drawable.userimage), // Add your user image here
+
+        )
+
     }
 }
 
