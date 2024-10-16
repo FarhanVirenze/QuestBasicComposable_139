@@ -85,6 +85,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         // ID number (in bold)
         Text(
             text = "20220140139",
+            style = TextStyle(fontSize = 30.sp, fontWeight = FontWeight.Bold),
         )
     }
 }
