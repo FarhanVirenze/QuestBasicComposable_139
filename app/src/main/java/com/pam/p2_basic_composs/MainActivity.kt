@@ -57,7 +57,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         // Sub-judul atau keterangan halaman login
         Text(
             text = "Ini adalah halaman login",
-            modifier = Modifier.padding(bottom = 16.dp)
+            modifier = Modifier.padding(bottom = 40.dp)
         )
 
         // Gambar logo UMY
