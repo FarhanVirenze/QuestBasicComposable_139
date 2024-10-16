@@ -71,21 +71,21 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         // Name label
         Text(
             text = "Nama",
-            style = TextStyle(fontSize = 20.sp),
+            style = TextStyle(fontSize = 18.sp),
             modifier = Modifier.padding(bottom = 8.dp)
         )
 
         // Name of the user (in red color)
         Text(
             text = "Muhamad Farhan",
-            style = TextStyle(fontSize = 24.sp, color = Color.Red),
+            style = TextStyle(fontSize = 18.sp, color = Color.Red),
             modifier = Modifier.padding(bottom = 8.dp)
         )
 
         // ID number (in bold)
         Text(
             text = "20220140139",
-            style = TextStyle(fontSize = 30.sp, fontWeight = FontWeight.Bold),
+            style = TextStyle(fontSize = 32.sp, fontWeight = FontWeight.Bold),
             modifier = Modifier.padding(bottom = 16.dp)
 
         )
