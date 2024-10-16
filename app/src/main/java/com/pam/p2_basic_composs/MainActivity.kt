@@ -97,7 +97,6 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .size(300.dp)
         )
-
     }
 }
 
