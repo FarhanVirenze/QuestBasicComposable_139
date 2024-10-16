@@ -93,6 +93,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         // Image of the user
         Image(
             painter = painterResource(id = R.drawable.userimage), // Add your user image here
+            contentDescription = "userimage",
 
         )
 
