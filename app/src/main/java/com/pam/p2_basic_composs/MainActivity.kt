@@ -73,6 +73,11 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             text = "Nama",
             style = TextStyle(fontSize = 20.sp)
         )
+
+        // Name of the user (in red color)
+        Text(
+            text = "Muhamad Adri",
+        )
     }
 }
 
