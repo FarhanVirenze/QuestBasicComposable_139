@@ -64,7 +64,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.umylogo),
             contentDescription = "Login Image",
             modifier = Modifier
-                .padding(top = 5.dp)
+                .padding(bottom = 5.dp)
                 .size(300.dp)
         )
     }
