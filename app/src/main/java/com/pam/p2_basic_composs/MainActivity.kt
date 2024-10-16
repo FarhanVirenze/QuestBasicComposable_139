@@ -67,6 +67,12 @@ fun BasicLayout(modifier: Modifier = Modifier) {
                 .padding(bottom = 5.dp)
                 .size(300.dp)
         )
+
+        // Name label
+        Text(
+            text = "Nama",
+            style = TextStyle(fontSize = 20.sp)
+        )
     }
 }
 
