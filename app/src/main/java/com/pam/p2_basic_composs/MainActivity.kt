@@ -57,7 +57,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         // Sub-judul atau keterangan halaman login
         Text(
             text = "Ini adalah halaman login",
-            modifier = Modifier.padding(top = 8.dp, bottom = 16.dp)
+            modifier = Modifier.padding(bottom = 16.dp)
         )
 
         // Gambar logo UMY
@@ -65,15 +65,14 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.umylogo),
             contentDescription = "Login Image",
             modifier = Modifier
-                .padding(bottom = 5.dp)
                 .size(300.dp)
         )
 
         // Name label
         Text(
             text = "Nama",
-            style = TextStyle(fontSize = 20.sp)
-
+            style = TextStyle(fontSize = 20.sp),
+            modifier = Modifier.padding(bottom = 8.dp)
         )
 
         // Name of the user (in red color)
