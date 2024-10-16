@@ -77,9 +77,14 @@ fun BasicLayout(modifier: Modifier = Modifier) {
 
         // Name of the user (in red color)
         Text(
-            text = "Muhamad Adri",
+            text = "Muhamad Farhan",
             style = TextStyle(fontSize = 24.sp, color = Color.Red),
             modifier = Modifier.padding(bottom = 8.dp)
+        )
+
+        // ID number (in bold)
+        Text(
+            text = "20220140139",
         )
     }
 }
