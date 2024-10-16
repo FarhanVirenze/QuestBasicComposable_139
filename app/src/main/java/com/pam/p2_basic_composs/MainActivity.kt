@@ -79,6 +79,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Text(
             text = "Muhamad Adri",
             style = TextStyle(fontSize = 24.sp, color = Color.Red),
+            modifier = Modifier.padding(bottom = 8.dp)
         )
     }
 }
